@@ -1,0 +1,326 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+}
+
+.padding {
+    padding-bottom: 2rem !important;
+}
+
+.col-md-10 {
+    font-size: 1.3rem !important;
+}
+
+.container-fluid a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-brand h1 {
+    font-size: 3.1rem !important;
+}
+
+.navbar {
+    padding: 0.8rem;
+    background-color: white !important;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1rem !important;
+    color: black !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-primary {
+    background-color: white;
+    border: 1px, solid;
+    border-color: pink;
+    color: pink;
+}
+
+button:hover {
+    color: black !important;
+    background-color: rgb(241, 195, 241) !important;
+
+    border-color: black !important;
+
+}
+
+label {
+
+    font-size: 12px;
+}
+
+
+
+.carousel-indicators li {
+    background-color: pink;
+}
+
+.col-xs-4.col-sm-6.col-md-4.col-lg-4.col-xl-4 img {
+    width: 100%;
+    height: 100%;
+    column-gap: 0;
+}
+
+.col-10 main form button {
+    background-color: white;
+    border: 1px, solid;
+    border-color: black;
+    color: black;
+    padding: 1%;
+}
+
+.col-10 main form button:hover {
+    color: black;
+    background-color: lightpink;
+    border-color: black;
+}
+
+.container {
+    background-image: url("1140.png") !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 240%;
+}
+
+.col-10 main form {
+    border: 1px, solid;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 1200px) {
+    .container-fluid p {
+        font-size: 1.8rem;
+    }
+
+    .container-fluid h1 {
+        font-size: 4.5rem;
+    }
+
+    .container-fluid h4 {
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        font-size: 1.5rem !important;
+    }
+
+    .col-md-10 p {
+        font-size: 1.5rem !important;
+    }
+
+    .display-4 {
+        font-size: 3.1rem !important;
+    }
+
+    .container {
+        background-image: url("1140.png") !important;
+        background-repeat: no-repeat !important;
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+@media (max-width: 2000px) {
+    .container-fluid p {
+        font-size: 1.3rem;
+    }
+
+    .container-fluid h1 {
+        font-size: 5.3rem;
+    }
+
+    .container-fluid h4 {
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        font-size: 1.5rem !important;
+    }
+
+    .col-md-10 p {
+        font-size: 1.5rem !important;
+    }
+
+    .display-4 {
+        font-size: 3.5rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .container-fluid p {
+        font-size: 1.5rem;
+    }
+
+    .container-fluid h1 {
+        font-size: 4.3rem;
+    }
+
+    .container-fluid h4 {
+        font-size: 2rem;
+    }
+
+    .display-4 {
+        font-size: 2.8rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-fluid p {
+        font-size: 1.5rem;
+    }
+
+    .container-fluid h1 {
+        font-size: 3.7rem;
+    }
+
+    .container-fluid h4 {
+        font-size: 2rem;
+    }
+
+    .display-4 {
+        font-size: 2.5rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .container-fluid p {
+        font-size: 1.5rem;
+    }
+
+    .container-fluid h1 {
+        font-size: 3.7rem;
+    }
+
+    .container-fluid h4 {
+        font-size: 2rem;
+    }
+
+    .display-4 {
+        font-size: 2rem !important;
+    }
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+/*--- Fixed Background Image --*/
+figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0 !important;
+}
+
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#fixed {
+    background-image: url("img/mac.png");
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+
+/* Style inputs, select elements and textareas */
+.col-75 {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    padding-left: 15px;
+    padding-top: -5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black double;
+
+    box-sizing: border-box;
+
+}
+
+
+
+
+.container {
+    margin-top: 5%;
+
+}
+
+
+button.btn.btn-primary.btn-lg {
+    margin-top: 3%;
+    background-color: white;
+    border: 1px, solid;
+    border-color: black;
+    color: black;
+}
+
+
+button.btn.btn-primary.btn-lg:hover {
+    color: black;
+    background-color: lightpink;
+    border-color: black,
+}
+
+label {
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+select {
+    font-size: 20px;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
